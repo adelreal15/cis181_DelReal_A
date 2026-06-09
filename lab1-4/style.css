@@ -1,0 +1,38 @@
+/* ==========================================
+   Body Styling
+   ========================================== */
+body {
+    background-color: #E7E6EF;
+    color: #02075D;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ==========================================
+   Heading Styling
+   ========================================== */
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+    font-size: 24px;
+    border-bottom: 1px solid #02075D; /* Uses the body text color */
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* ==========================================
+   Image Styling
+   ========================================== */
+img {
+    border: 1px solid #800020;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
