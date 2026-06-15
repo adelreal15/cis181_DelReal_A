@@ -1,0 +1,34 @@
+A Mad Tea-Party
+
+Tea Party Supplies
+
+Tea Cups with Saucers 	$ 35.99
+Tea Pot			$ 28.99
+Serving Spoon Set	$ 10.99
+Butter Dish		$ 12.99
+Bread Knife		$ 29.99
+Table Cloth		$ 34.99
+
+Order Form
+
+Customer Name: _____________________________
+Mailing Address: ____________________________
+City: ____________________________
+State: IL/IN/MI/WI
+
+Choose a shipping option:
+° Standard shipping (3-4 days)
+° Rush shipping (2 days)
+° Overnight shipping (1 day)
+
+Special delivery instructions?
+------------------------------
+|                            |
+|                            |
+|                            |
+|                            |
+------------------------------
+
+▣ E-mail me about future promotions and sales
+
+PLACE ORDER
