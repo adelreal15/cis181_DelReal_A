@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+  background-color: #e0c791;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+header {
+  height: 120px;
+}
+
+.page-wrapper {
+  width: 1105px;
+  margin: auto;
+  background-color: #232428;
+  color: #eacb89;
+}
+
+.preamble {
+  width: 330px;
+}
+
+.main {
+  width: 730px;
+}
+
+

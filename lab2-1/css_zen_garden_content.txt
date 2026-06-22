@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CSS Zen Garden: The Beauty of CSS Design</title>
+</head>
+
+<body>
+
+<!-- Content 1 -->
+CSS Zen Garden
+
+<!-- Content 2 -->
+The Beauty of CSS Design
+
+<!-- Content 3 -->
+A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.
+
+<!-- Content 4 -->
+Download the example html file and css file.
+
+<!-- Content 5 -->
+The Road to Enlightenment
+
+<!-- Content 6 -->
+Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers.
+
+<!-- Content 7 -->
+We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C, WaSP, and the major browser creators.
+
+<!-- Content 8 -->
+The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters.
+
+<!-- Content 9 -->
+So What is This About?
+
+<!-- Content 10 -->
+There is a continuing need to show the power of CSS.
+
+<!-- Content 11 -->
+Participation
+
+<!-- Content 12 -->
+Strong visual design has always been our focus.
+
+<!-- Content 13 -->
+Benefits
+
+<!-- Content 14 -->
+Why participate? For recognition, inspiration, and a resource we can all refer to.
+
+<!-- Content 15 -->
+Requirements
+
+<!-- Content 16 -->
+The only real requirement we have is that your CSS validates.
+
+<!-- Content 17 -->
+HTML | CSS | CC
+
+<!-- Content 18 -->
+Select a Design
+
+<!-- Content 19 -->
+Design Link
+
+<!-- Content 20 -->
+Archives
+
+<!-- Content 21 -->
+Archive Link
+
+<!-- Content 22 -->
+Resources
+
+<!-- Content 23 -->
+CSS Resources
+
+<!-- Content 24 -->
+FAQ
+
+</body>
+</html>
