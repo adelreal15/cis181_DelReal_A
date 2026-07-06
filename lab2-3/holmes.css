@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/* Dr. Laurie's note: I have designed this page to be viewed at Screen Resolution 1280 x 960 */
+
+
+body {
+    background-color: RGB(108,77,48);
+    background-image: URL("images/leather.jpg");
+    font-family: Garamond, Palatino, Georgia, serif;
+    /* 14 ÷ 16 = 0.875 --> 87.5% */
+    font-size: 87.5%; 
+}
+
+
+#container {
+    background-color: RGB(238,228,201);
+    background-image: URL("images/paper-texture.jpg");
+    /* 1105 ÷ 1280 = 0.86328125 --> 86.328125% */
+    width: 86.328125%;
+    margin: 0 auto; /* centers the div */
+    /* 20 ÷ 14 = 1.4285714 --> 1.4285714em */
+    padding: 1.4285714em;
+    overflow: auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    /* 32 ÷ 14 = 2.2857142 --> 2.2857142em */
+    font-size: 2.2857142em;
+}
+
+h2 {
+    /* 24 ÷ 14 = 1.7142857 --> 1.7142857em */
+    font-size: 1.7142857em;
+}
+
+h3 {
+    /* 20 ÷ 14 = 1.4285714 --> 1.4285714em */
+    font-size: 1.4285714em;
+    border-bottom: 2px RGB(238,228,201) double;
+    margin-bottom: 0.5em;
+}
+
+article {
+    margin: 1em 1em 1em 0;
+    float: right;
+    /* 755 ÷ 1105 = 0.6832579 --> 68.32579% */
+    width: 68.32579%;
+}
+
+nav {
+    border: 2px RGB(238,228,201) double;
+    /* 20 ÷ 14 = 1.4285714 --> 1.4285714em */
+    padding: 1.4285714em;
+    background-color: maroon;
+    color: RGB(238,228,201);
+    margin: 1em 1em 1em 0;
+    /* 255 ÷ 1105 = 0.2307692 --> 23.07692% */
+    width: 23.07692%;
+}
+
+
+
+p {
+    margin-top: 1em;
+}
+
+p.start:first-letter {
+    /* This creates a "drop cap" for the first letter of the paragraph if it has a class of "start" */
+    float: left;
+    /* 45 ÷ 14 = 3.2142857 --> 321.42857% */
+    font-size: 321.42857%;
+    line-height: 1;
+    font-weight: bold;
+    /* 9 ÷ 14 = 0.6428571 --> 0.6428571em */
+    margin-right: 0.6428571em;
+}
+
+#silhouette {
+    float: right;
+    margin-left: 2em;
+    /* Maximum image width: 100% */
+    max-width: 100%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    border-top: 2px ridge;
+}
+
+a:link, a:visited {
+    color: maroon;
+}
+
+a:hover, a:active {
+    color: navy;
+}
+
+nav a:link, nav a:visited {
+    /* Because maroon links aren't visible on a maroon background!
+       This overrides the a:link and a:visited styles for the nav only. */
+    color: RGB(238,228,201);
+    text-decoration: none;
+    font-size: 125%;
+}
+
+nav a:hover, nav a:active {
+    /* This overrides the a:hover and a:active styles for the nav only. */
+    text-decoration: underline;
+}
+
+
+/* This section puts the quotation marks back in for instances of the <q> tag
+   The reset style sheet strips them out. */
+q::before{
+  content: "“";
+}
+q::after {
+  content: "”";
+}
+q.noclosing::after {
+    /* This part was challenging! In Sir Arthur's original source material, there were many
+    opening quotation without corresponding closing quotation marks. Ultimately I decided to
+    assign a reusable class to instances of the <q> tag where there was no closing quotation
+    mark in the original story. */
+    content: " ";
+}
+
+/* ==========================================================
+   Basic Media Query
+   ========================================================== */
+@media screen and (max-width: 768px) {
+    article {
+        width: 100%;
+        float: none;
+    }
+    
+    nav {
+        width: 100%;
+        float: none;
+        padding: 1em;
+    }
+}
