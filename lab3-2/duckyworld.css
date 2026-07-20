@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body {
+  background-image: url(images/ducky-background.jpg);
+  font-family: Garamond, "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: #E4F3E7;
+  color: navy;
+  text-align: center;
+  border: 2px double #A3684D;
+  width: 50%;
+  margin: auto;
+  padding: 1em;
+}
+
+main {
+  background-color: #F0D7A4;
+  width: 85%;
+  margin: 1em auto;
+  padding: 1em;
+  border: 2px double #A3684D;
+}
+
+section {
+  margin: 1em 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.4em;
+  line-height: 2;
+}
+
+table,
+tr,
+td,
+th,
+thead,
+tbody,
+tfoot {
+  border-collapse: collapse;
+  border: 1px solid navy;
+}
+
+thead {
+  font-weight: bold;
+  color: #A3684D;
+}
+
+td {
+  padding: 0.5em;
+}
+
+label {
+  width: 13em;
+  text-align: right;
+  display: inline-block;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #E4F3E7;
+  margin: 0;
+  padding: 0.5em;
+  text-align: center;
+}
