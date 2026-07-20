@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Alfaro's Ducky World</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="duckyworld.css">
+</head>
+
+<body>
+  <header>
+    <h1>Alfaro&rsquo;s Ducky World</h1>
+    <h2>Since 1973</h2>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Price List</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <td>Item Name</td>
+            <td>Price</td>
+            <td># in Stock</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Standard Yellow</td>
+            <td>$ 4.99</td>
+            <td>7</td>
+          </tr>
+
+          <tr>
+            <td>Powder Pink</td>
+            <td>$ 4.99</td>
+            <td>5</td>
+          </tr>
+
+          <tr>
+            <td>Baby Blue</td>
+            <td>$ 4.99</td>
+            <td>4</td>
+          </tr>
+
+          <tr>
+            <td>Limited Edition Astro Duck</td>
+            <td>$ 10.99</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+
+    <h2>Order Form</h2>
+
+    <p>
+      Thank you for your interest in our rubber duckies. All our duckies are high-quality vinyl and made in the USA.
+    </p>
+
+    <form name="orderform" id="orderform" action="http://www.rebol.com/cgi-bin/test-cgi.cgi" onsubmit="return validateOrder()">
+
+      <fieldset>
+        <legend>Shipping Info</legend>
+
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" autofocus><br>
+
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname"><br>
+
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="address1">Address line 1:</label>
+        <input type="text" id="address1" name="address1"><br>
+
+        <label for="address2">Address line 2 (optional):</label>
+        <input type="text" id="address2" name="address2" placeholder="optional"><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"><br>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Quantities</legend>
+
+        <label for="yellow">Standard Yellow ducks:</label>
+        <input type="number" name="yellow" id="yellow" min="0" max="10"><br>
+
+        <label for="pink">Powder Pink ducks:</label>
+        <input type="number" name="pink" id="pink" min="0" max="10"><br>
+
+        <label for="blue">Baby Blue ducks:</label>
+        <input type="number" name="blue" id="blue" min="0" max="10"><br>
+
+        <label for="astro">Limited Edition Astro Ducks:</label>
+        <input type="number" name="astro" id="astro" min="0" max="10"><br>
+
+      </fieldset>
+
+      <div class="form-buttons">
+        <button type="button" onclick="welcomeCustomer()">Welcome</button>
+        <button type="button" onclick="greetCustomer()">Customer Greeting</button>
+        <button type="button" onclick="calculateTotalDucks()">Total Duck Count</button>
+      </div>
+
+      <input type="submit" value="Place Order">
+
+    </form>
+
+  </main>
+
+  <footer>
+    <small>
+      This page and its contents copyright &copy; 2020 Alfaro&rsquo;s Ducky World. All rights reserved.
+    </small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
